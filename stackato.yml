@@ -4,6 +4,7 @@ framework:
  type: php
 services:
  simpleinvoice-test: mysql
+ simpleinvoice-test: filesystem
 
 hooks:
  pre-staging:
