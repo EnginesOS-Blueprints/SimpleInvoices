@@ -1,5 +1,5 @@
 name: simpleinvoice-test
-memory: 128
+memory: 160
 framework:
  type: php
 services:
