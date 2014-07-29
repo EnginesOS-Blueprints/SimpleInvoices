@@ -1,10 +1,10 @@
 name: simpleinvoice-test
-memory: 160
+memory: 150
 framework:
  type: php
 services:
- simpleinvoice-test: mysql
- simpleinvoice-test: filesystem
+ simpleinvoicedb-test: mysql
+ simpleinvoicefs-test: filesystem
 
 hooks:
  pre-staging:
