@@ -3,8 +3,8 @@ memory: 150
 framework:
  type: php
 services:
- simpleinvoicefs-test: filesystem
  simpleinvoicedb-test: mysql
+ simpleinvoicefs-test: filesystem
 
 hooks:
  pre-staging:
